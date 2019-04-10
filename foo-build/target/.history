@@ -1,0 +1,9 @@
+~compile
+set ThisBuild / scalaVersion := "2.12.7"
+session.save
+session save
+reload
+test
+~testQuick
+reload
+console

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="hello_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190410213031"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.5" status="release" pubdate="20180129185347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4732" time="0" location="/Users/onion8/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.pom"/>
+				<caller organisation="com.example" name="hello_2.12" conf="test, compile, runtime" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.12" type="bundle" ext="jar" status="no" details="" size="7013188" time="0" location="/Users/onion8/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.5" status="release" pubdate="20180129185214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/onion8/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="708098" time="0" location="/Users/onion8/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ensime" name="sbt-ensime">
+			<revision name="2.5.1" status="release" pubdate="20180327145320" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ensime/ensime-sbt" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3404" time="0" location="/Users/onion8/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.12_1.0/2.5.1/sbt-ensime-2.5.1.pom"/>
+				<caller organisation="com.example" name="hello_2.12" conf="test, compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-ensime" type="jar" ext="jar" status="no" details="" size="10401627" time="0" location="/Users/onion8/.ivy2/cache/scala_2.12/sbt_1.0/org.ensime/sbt-ensime/jars/sbt-ensime-2.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.12_1.0/2.5.1/sbt-ensime-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dwijnand" name="sbt-compat">
+			<revision name="1.0.0" status="release" pubdate="20170822092611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/dwijnand/sbt-compat" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="22">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="1611" time="0" location="/Users/onion8/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.5.1" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-compat" type="jar" ext="jar" status="no" details="" size="3727" time="0" location="/Users/onion8/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-compat/jars/sbt-compat-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.0.0/jars/sbt-compat.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101102105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3126" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.12/1.0.6/ivys/ivy.xml"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.5.1"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/org.scala-lang.modules/scala-xml_2.12/1.0.6/bundles/scala-xml_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="gigahorse-okhttp_2.12">
+			<revision name="0.3.1" status="release" pubdate="20170704032420" resolver="public" artresolver="public" homepage="https://github.com/eed3si9n/gigahorse" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2110" time="589" location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-okhttp_2.12/ivy-0.3.1.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-okhttp_2.12/ivy-0.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.1/gigahorse-okhttp_2.12-0.3.1.pom"/>
+				<caller organisation="com.example" name="hello_2.12" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="gigahorse-okhttp_2.12" type="jar" ext="jar" status="successful" details="" size="43150" time="1358" location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-okhttp_2.12/jars/gigahorse-okhttp_2.12-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.1/gigahorse-okhttp_2.12-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okhttp3" name="okhttp">
+			<revision name="3.7.0" status="release" pubdate="20170415215432" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5565" time="0" location="/Users/onion8/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.7.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/com.squareup.okhttp3/okhttp/3.7.0/ivys/ivy.xml"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-okhttp_2.12" conf="default, compile, runtime, master" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="okhttp" type="jar" ext="jar" status="no" details="" size="394987" time="0" location="/Users/onion8/.ivy2/cache/com.squareup.okhttp3/okhttp/jars/okhttp-3.7.0.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/com.squareup.okhttp3/okhttp/3.7.0/jars/okhttp.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okio" name="okio">
+			<revision name="1.12.0" status="release" pubdate="20170411232017" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4329" time="0" location="/Users/onion8/.ivy2/cache/com.squareup.okio/okio/ivy-1.12.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/com.squareup.okio/okio/1.12.0/ivys/ivy.xml"/>
+				<caller organisation="com.squareup.okhttp3" name="okhttp" conf="compile, runtime" rev="1.12.0" rev-constraint-default="1.12.0" rev-constraint-dynamic="1.12.0" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="okio" type="jar" ext="jar" status="no" details="" size="81088" time="0" location="/Users/onion8/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.12.0.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/com.squareup.okio/okio/1.12.0/jars/okio.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="gigahorse-core_2.12">
+			<revision name="0.3.1" status="release" pubdate="20170704032407" resolver="public" artresolver="public" homepage="https://github.com/eed3si9n/gigahorse" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2285" time="589" location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-core_2.12/ivy-0.3.1.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-core_2.12/ivy-0.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.1/gigahorse-core_2.12-0.3.1.pom"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-okhttp_2.12" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="gigahorse-core_2.12" type="jar" ext="jar" status="successful" details="" size="167167" time="669" location="/Users/onion8/.ivy2/cache/com.eed3si9n/gigahorse-core_2.12/jars/gigahorse-core_2.12-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.1/gigahorse-core_2.12-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316123632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5188" time="0" location="/Users/onion8/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.slf4j/slf4j-api/1.7.25/ivys/ivy.xml"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-core_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="/Users/onion8/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/org.slf4j/slf4j-api/1.7.25/jars/slf4j-api.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150615233204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2386" time="0" location="/Users/onion8/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.reactivestreams/reactive-streams/1.0.0/ivys/ivy.xml"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-core_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="/Users/onion8/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/org.reactivestreams/reactive-streams/1.0.0/jars/reactive-streams.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.2" status="release" pubdate="20170308093931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2990" time="0" location="/Users/onion8/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/com.typesafe/ssl-config-core_2.12/0.2.2/ivys/ivy.xml"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-core_2.12" conf="compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="bundle" ext="jar" status="no" details="" size="243552" time="0" location="/Users/onion8/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.2.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/com.typesafe/ssl-config-core_2.12/0.2.2/bundles/ssl-config-core_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161028191045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2918" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.4/ivys/ivy.xml"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.2"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="successful" details="" size="204313" time="1128" location="/Users/onion8/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.0" status="release" pubdate="20140115100944" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2867" time="0" location="/Users/onion8/.ivy2/cache/com.typesafe/config/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/com.typesafe/config/1.2.0/ivys/ivy.xml"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.2.2"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="217897" time="0" location="/Users/onion8/.ivy2/cache/com.typesafe/config/bundles/config-1.2.0.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/com.typesafe/config/1.2.0/bundles/config.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.7" status="release" pubdate="20180927043203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.7/ivys/ivy.xml"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.6.9"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="3.0.5"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3616372" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.7.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.7/jars/scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.12">
+			<revision name="2.6.9" status="release" pubdate="20180302005515" resolver="public" artresolver="public" homepage="https://github.com/playframework/play-json" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="4478" time="622" location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-json_2.12/ivy-2.6.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-json_2.12/ivy-2.6.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9.pom"/>
+				<caller organisation="com.example" name="hello_2.12" conf="test, compile, runtime" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-json_2.12" type="jar" ext="jar" status="successful" details="" size="659490" time="3126" location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.9/play-json_2.12-2.6.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.8.9" status="release" pubdate="20170612103823" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="4533" time="598" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.8.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="bundle" ext="jar" status="successful" details="" size="90059" time="1974" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.8.9" status="release" pubdate="20170612103811" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2251" time="586" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.8.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="bundle" ext="jar" status="successful" details="" size="33877" time="1827" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.9" status="release" pubdate="20170612062351" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5426" time="608" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="successful" details="" size="1242477" time="2590" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.9" status="release" pubdate="20170612060719" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1848" time="589" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="successful" details="" size="55784" time="811" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.8.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.9" status="release" pubdate="20170612061341" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="5415" time="594" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.6.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="2.8.9"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="successful" details="" size="282633" time="2491" location="/Users/onion8/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.9" status="release" pubdate="20170323190313" resolver="public" artresolver="public" homepage="http://www.joda.org/joda-time/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="34627" time="787" location="/Users/onion8/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/joda-time/joda-time/ivy-2.9.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="634048" time="2303" location="/Users/onion8/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102141258" resolver="public" artresolver="public" homepage="https://github.com/milessabin/macro-compat" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1915" time="637" location="/Users/onion8/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="successful" details="" size="3180" time="602" location="/Users/onion8/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.12">
+			<revision name="2.6.9" status="release" pubdate="20180302005501" resolver="public" artresolver="public" homepage="https://github.com/playframework/play-json" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1539" time="599" location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-functional_2.12/ivy-2.6.9.xml" searched="true" original-local-location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-functional_2.12/ivy-2.6.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9.pom"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="play-functional_2.12" type="jar" ext="jar" status="successful" details="" size="177939" time="1956" location="/Users/onion8/.ivy2/cache/com.typesafe.play/play-functional_2.12/jars/play-functional_2.12-2.6.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.9/play-functional_2.12-2.6.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927043542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="file:////Users/onion8/.sbt/preloaded/org.scala-lang/scala-library/2.12.7/ivys/ivy.xml"/>
+				<caller organisation="com.example" name="hello_2.12" conf="test, compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.5.1"/>
+				<caller organisation="com.typesafe.play" name="play-json_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.6.9"/>
+				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="3.0.5"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-core_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.3.1"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.2.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.6"/>
+				<caller organisation="com.eed3si9n" name="gigahorse-okhttp_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.3.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.4"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="3.0.5"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.12.7"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.1"/>
+				<caller organisation="com.typesafe.play" name="play-functional_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.6.9"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/Users/onion8/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="file:////Users/onion8/.sbt/preloaded/org.scala-lang/scala-library/2.12.7/jars/scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
