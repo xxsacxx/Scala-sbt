@@ -1,0 +1,9 @@
+0- Create the file ~/.sbt/1.0/plugins/plugins.sbt with addSbtPlugin("org.ensime" % "sbt-ensime" % "2.5.1") to download ensime 
+1- follow the directory architecture as per sbt i.e file.scala should be in base_dir/src/main/scala
+2- create the sbt in the directory where build.sbt is present 
+3- After making any changes in build.sbt , reload in sbt and then run ensimeConfig to generate the .ensime
+4- Once .ensime is generated , then import the base_dir in your text editor to edit file.scala
+5- run ensime-start in editor ,now your sbt is acting as build tool along with ensime as another tool which will help you monitor errors and click in to fns,
+
+There are many other things which I did to get this running, but my brain is terribly tired to remember them, once it will be active enough will add more points
+
